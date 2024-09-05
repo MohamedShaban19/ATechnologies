@@ -1,0 +1,36 @@
+.confirmed-circle {
+    width: 228px;
+    height: 228px;
+    position: absolute;
+    top: 243px;
+    left: 341px;
+    border: 8.19px solid #3E97FF; /* Green border for the confirmed state */
+    border-radius: 50%; /* Makes it a circle */
+    background-color: #3E97FF; /* Background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Start hidden */
+    transform: scale(0); /* Start scaled down */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Animation for fade-in and scale-up */
+  }
+  
+  .confirmed-circle.show {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .checkmark {
+    position: absolute;
+    font-size: 120px; /* Size of the checkmark */
+    color: #ffffff; /* Checkmark color */
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.5s ease 0.5s, transform 0.5s ease 0.5s; /* Animations for showing checkmark */
+  }
+  
+  .confirmed-circle.show .checkmark {
+    opacity: 1;
+    transform: scale(1);
+  }
+  

@@ -1,0 +1,55 @@
+.progress-container {
+    width: 100%;
+    height: 20px; 
+    background-color: rgb(61, 150, 252 ,0.1); 
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+  }
+  
+  .progress-number {
+    font-size: 16px; 
+    color: #000;
+    margin-bottom: 5px; 
+    text-align: left; 
+    padding-left: 15px; 
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #3E97FF; 
+    border-radius: 10px 0 0 10px;
+    transition: width 0.5s ease; 
+    position: absolute;
+    right: 0; 
+  }
+  .progress-info {
+    display: flex;
+    justify-content: space-between; /* Space between text and progress number */
+    align-items: center;
+    padding: 0 10px; /* Add padding if needed */
+    margin-bottom: 5px; /* Space between info and progress bar */
+  }
+  
+  .status-text {
+    font-size: 16px; 
+    color: #000;
+  }
+  
+  .circle {
+    width: 228px;
+    height: 228px;
+    position: absolute;
+    top: 243px;
+    left: 341px;
+    border: 8.19px solid rgb(62, 151, 255,0.3); /* Adjust border color if needed */
+    border-radius: 50%; /* This makes it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; /* Adjust font size if needed */
+  }
+  
