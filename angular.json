@@ -41,7 +41,9 @@
               "src/scss/styles.scss"
             ],
             "scripts": [],
-            "allowedCommonJsDependencies": []
+            "allowedCommonJsDependencies": [],
+            "baseHref": "/ATechnologies/"
+
           },
           "configurations": {
             "production": {
