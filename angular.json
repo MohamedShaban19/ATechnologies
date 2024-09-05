@@ -23,6 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/ATechnologies/",
             "outputPath": "dist/ATechnologies",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -41,8 +42,8 @@
               "src/scss/styles.scss"
             ],
             "scripts": [],
-            "allowedCommonJsDependencies": [],
-            "baseHref": "/ATechnologies/"
+            "allowedCommonJsDependencies": []
+            
 
           },
           "configurations": {
